@@ -9,4 +9,9 @@ public class TestStuff {
     public void test_more_stuff() {
         Assert.assertTrue(true);
     }
+
+    @Test
+    public void this_should_fail() {
+        Assert.assertTrue(false);
+    }
 }
