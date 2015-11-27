@@ -1,0 +1,14 @@
+language: java
+
+before_install:
+    - bash install.sh
+
+script:
+    - bash build.sh
+
+notifications:
+    on_failure: change
+    on_success: change
+
+jdk:
+    - oraclejdk8
